@@ -32,6 +32,15 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+
+a { 
+    text-decoration: none; 
+    color: var(--main-text-color); 
+   }
+a:visited { 
+    text-decoration: none; 
+    color: var(--main-text-color); 
+   }
 ol, ul {
     list-style: none;
 }
@@ -113,9 +122,7 @@ body{
     height: 70%;
 
 }
-.imgContainer{
-    border: none;
-}
+
 
 .divbox3{
   
@@ -148,7 +155,7 @@ body{
 }
 .divbox4{
     background-color: rgb(109, 116, 125);;
-    
+    border-radius: 5px;
     width: 450px;
     height: 80%;
     text-align: center;
@@ -157,11 +164,12 @@ body{
    
 }
 .divbox4 img{
-    max-height: 150px;
+   border:none;
+    width: 100%;
+    object-fit:cover;
     border-radius: 2%;
-    margin-top: 2%;
-    
-}
+      object-fit:cover
+      ;}
 
 
 
@@ -189,11 +197,12 @@ body{
    
     }
    
-    figure img{
+    .divbox6 img{
         border-radius: 15px;
         width: 200px;
         height: 190px;
         border: solid var(--backgroundcolor-blue) 3px;
+        object-fit:cover;
     }
     .div6figcaption{
         width: 200px;
@@ -283,7 +292,7 @@ align-items: center;
 
 .footer{
     text-align:center;
-    height: 350px;
+    height: 100px;
   padding-top: 15px;
     background-color: var(--color-header-footer);
     color: var(--main-text-color);
