@@ -57,24 +57,27 @@ table {
         --main-backgroundcolor: #f9faf8;
         --main-text-color: #f9faf8;
         --color-header-footer: #1f2937;
-        --padding-leftright-header: 25px;
+        --padding-leftright-header: 55px;
+        --padding-leftright-seccions:0 150px 0 150px ;
+        --backgroundcolor-blue: #3882f6;
 
     }
   
 body{
-    background-color: grey;
+   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
-    padding: 0 35px 0 35px ;
-    border: solid firebrick 1px;
+    padding: var(--padding-leftright-seccions) ;
+    
     background-color: var(--color-header-footer);
     color: var(--main-text-color);
-    height: 15rem;
+    height: 350px;
 }
 .navbar{
     display: flex;
-    border: solid 1px yellow;
+  
    height: 30%;
     display: flex;
     flex-direction: row;
@@ -88,7 +91,7 @@ body{
     padding-left: var(--padding-leftright-header);
     font-size: 24px;
    
-    border: solid blue 1px;
+    
     align-items: flex-start;
     
 }
@@ -98,7 +101,7 @@ body{
     padding-right: var(--padding-leftright-header);
     justify-content: end;
     align-items: flex-start;
-    border: solid blue 1px;
+   
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
@@ -110,63 +113,178 @@ body{
     height: 70%;
 
 }
+.imgContainer{
+    border: none;
+}
+
 .divbox3{
-    border: solid blue 1px;
+  
     padding-left: var(--padding-leftright-header);
     padding-right: var(--padding-leftright-header);
     width: 50%;
+    height: 75%;
 }
 .div3_1{
     font-size: 48px;
+    max-width: 450px;
     font-weight: bolder;
     
 }
 .div3_2{
     font-size: 18px;
+    
+    max-width: 450px;
    
+}
+.signUpHeaderBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
 }
 .divbox4{
-    border: solid blue 1px;
-    width: 50%;
+    background-color: rgb(109, 116, 125);;
+    
+    width: 450px;
+    height: 80%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
    
-    padding-right: var(--padding-leftright-header);
 }
+.divbox4 img{
+    max-height: 150px;
+    border-radius: 2%;
+    margin-top: 2%;
+    
+}
+
+
+
+
 
 .section2{
-    border: solid firebrick 1px;
+    text-align: center;
+   
     background-color: var(--main-backgroundcolor);
+    height: 450px;
 }
 .divbox5{
-    border: solid blue 1px;
+    height: 20%;
+    font-size: 36px;
+    padding-top:1% ;
+    font-weight: bolder;
+ 
 }
 .divbox6{
-    border: solid blue 1px;
-}
+    height: 85%;
+   
+    justify-content: center;
+    display: flex;
+    gap: 45px;
+   
+    }
+   
+    figure img{
+        border-radius: 15px;
+        width: 200px;
+        height: 190px;
+        border: solid var(--backgroundcolor-blue) 3px;
+    }
+    .div6figcaption{
+        width: 200px;
+        font-size: 1rem;
 
+    }
+    .div6_1, .div6_2,.div6_3, .div6_4 {
+        
+        padding-top: 15px;    
+       
+                
+        }
 .section3{
-    border: solid firebrick 1px;
+    height: 350px;
+    background-color: rgb(229, 231, 235);
+    padding: var(--padding-leftright-seccions) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .divbox7{
-    border: solid blue 1px;
+ 
+   
+    text-align: center;
+    height: 85%;
+    font-size: 36px;
+    font-style: italic;
+     
+
 }
 .divbox8{
-    border: solid blue 1px;
+    padding-top: 1%;
+    height: 15%;
+    text-align: right;
+    font-weight: 900;
+    font-size: 20px;
 }
+
+
+
 .section4{
-    border: solid firebrick 1px;
+    margin-top: 45px;
+    height: 350px;
     color: var(--main-text-color);
     background-color: var(--main-backgroundcolor);
+    padding: var(--padding-leftright-seccions) ;
+  
 }
 
 .divbox9{
-    border: solid blue 1px;
+
+   display: flex;
+    background-color: var(--backgroundcolor-blue);
+    color:var(--main-backgroundcolor);
+    border-radius: 5px;
+    height: 35%;
+       justify-content: center;
+       padding-left: var(--padding-leftright-header);
+align-items: center;
+
+}
+.div9_1{
+    padding-left: var(--padding-leftright-header);
+    width: 75%;
+}
+.div9_2{
+    width: 25%;
+    border: none;
+}
+.div9_1_1{
+    font-weight: bold;
+    font-size: larger;
+}
+.signUpFooterBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: var(--main-backgroundcolor);
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+    border: solid 1px var(--main-text-color);
 }
 
-
 .footer{
-    border: solid firebrick 1px;
+    text-align:center;
+    height: 350px;
+  padding-top: 15px;
     background-color: var(--color-header-footer);
     color: var(--main-text-color);
 }
