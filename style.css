@@ -154,7 +154,7 @@ body{
     height: 2rem;
 }
 .divbox4{
-    background-color: rgb(109, 116, 125);;
+  
     border-radius: 5px;
     width: 450px;
     height: 80%;
@@ -299,44 +299,1045 @@ align-items: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   
+
+
+
+    :root{
+        --main-backgroundcolor: #f9faf8;
+        --main-text-color: #f9faf8;
+        --color-header-footer: #1f2937;
+        --padding-leftright-header: 55px;
+        --padding-leftright-seccions:0 150px 0 150px ;
+        --backgroundcolor-blue: #3882f6;
+
+    }
+  
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding: var(--padding-leftright-seccions) ;
+    
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+    height: 405px;
+}
+.navbar{
+    display: flex;
+  
+   height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.divbox1{
+    padding-top: 2px;
+    width: 15%;
+    position: relative;
+    left: 0;
+    padding-left: var(--padding-leftright-header);
+    font-size: 24px;
+   
+    
+    align-items: flex-start;
+    
+}
+.divbox2{
+    width: 100%;
+    padding-top: 5px;
+    padding-right: var(--padding-leftright-header);
+    justify-content: end;
+    align-items: flex-start;
+   
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+.divContainer{
+    display: flex;
+    height: 70%;
+
+}
+
+
+.divbox3{
+  
+    padding-left: var(--padding-leftright-header);
+    padding-right: var(--padding-leftright-header);
+    width: 50%;
+    height: 75%;
+}
+.div3_1{
+    font-size: 48px;
+    max-width: 450px;
+    font-weight: bolder;
+    
+}
+.div3_2{
+    font-size: 18px;
+    
+    max-width: 450px;
+   
+}
+.signUpHeaderBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+}
+.divbox4{
+   
+    min-width: 450px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divbox4 img{
+    
+   border:none;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 8px    ;
+    }
+
+
+
+.section2{
+    text-align: center;
+   
+    background-color: var(--main-backgroundcolor);
+    height: 450px;
+}
+.divbox5{
+    height: 20%;
+    font-size: 36px;
+    padding-top:1% ;
+    font-weight: bolder;
+ 
+}
+.divbox6{
+    height: 85%;
+   
+    justify-content: center;
+    display: flex;
+    gap: 45px;
+   
+    }
+   
+    .divbox6 img{
+        border-radius: 15px;
+        width: 200px;
+        height: 190px;
+        border: solid var(--backgroundcolor-blue) 3px;
+        object-fit:cover;
+    }
+    .div6figcaption{
+        width: 200px;
+        font-size: 1rem;
+
+    }
+    .div6_1, .div6_2,.div6_3, .div6_4 {
+        
+        padding-top: 15px;    
+       
+                
+        }
+.section3{
+    height: 350px;
+    background-color: rgb(229, 231, 235);
+    padding: var(--padding-leftright-seccions) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divbox7{
+ 
+   
+    text-align: center;
+    height: 85%;
+    font-size: 36px;
+    font-style: italic;
+     
+
+}
+.divbox8{
+    padding-top: 1%;
+    height: 15%;
+    text-align: right;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+.section4{
+    margin-top: 45px;
+    height: 200px;
+    color: var(--main-text-color);
+    background-color: var(--main-backgroundcolor);
+    padding: var(--padding-leftright-seccions) ;
+  
+}
+
+.divbox9{
+
+   display: flex;
+    background-color: var(--backgroundcolor-blue);
+    color:var(--main-backgroundcolor);
+    border-radius: 5px;
+    height: 35%;
+       justify-content: center;
+       padding-left: var(--padding-leftright-header);
+align-items: center;
+
+}
+.div9_1{
+    padding-left: var(--padding-leftright-header);
+    width: 75%;
+}
+.div9_2{
+    width: 25%;
+    border: none;
+}
+.div9_1_1{
+    font-weight: bold;
+    font-size: larger;
+}
+.signUpFooterBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: var(--main-backgroundcolor);
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+    border: solid 1px var(--main-text-color);
+}
+
+.footer{
+    text-align:center;
+    height: 100px;
+  padding-top: 15px;
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
+   /********** Medium-small devices only **********/
+@media (min-width: 767px) and (max-width: 992px) {
+  
+ 
+
+
+    :root{
+        --main-backgroundcolor: #f9faf8;
+        --main-text-color: #f9faf8;
+        --color-header-footer: #1f2937;
+        --padding-leftright-header: 15px;
+        --padding-leftright-seccions:0 50px 0 50px ;
+        --backgroundcolor-blue: #3882f6;
+
+    }
+  
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding: var(--padding-leftright-seccions) ;
+    
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+    height: 405px;
+}
+.navbar{
+    display: flex;
+  
+   height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.divbox1{
+    padding-top: 5px;
+    width: 15%;
+    position: relative;
+    left: 0;
+    padding-left: var(--padding-leftright-header);
+    font-size: 24px;
+   
+    
+    align-items: flex-start;
+    
+}
+.divbox2{
+    width: 100%;
+    padding-top: 5px;
+    padding-right: var(--padding-leftright-header);
+    justify-content: end;
+    align-items: flex-start;
+   
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+.divContainer{
+    display: flex;
+    height: 70%;
+
+
+}
+
+
+.divbox3{
+  
+    padding-left: var(--padding-leftright-header);
+    padding-right: var(--padding-leftright-header);
+    width: 50%;
+    height: 75%;
+}
+.div3_1{
+    font-size: 40px;
+    max-width: 450px;
+    font-weight: bolder;
+    
+}
+.div3_2{
+    font-size: 16px;
+    
+    max-width: 450px;
+   
+}
+.signUpHeaderBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+}
+.divbox4{
+   
+    min-width: 450px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divbox4 img{
+    
+   border:none;
+    width: 85%;
+    object-fit:cover;
+    border-radius: 8px    ;
+    }
+
+
+
+
+.section2{
+    text-align: center;
+    background-color: var(--main-backgroundcolor);
+    height: auto;
+    
+    padding-bottom:25px ;
+}
+.divbox5{
+    height: 20%;
+    font-size: 30px;
+    padding-top:1% ;
+    font-weight: bolder;
+ 
+}
+.divbox6{
+    height: 85%;
+   
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+   
+    }
+   
+    .divbox6 img{
+        border-radius: 15px;
+        width: 200px;
+        height: 190px;
+        border: solid var(--backgroundcolor-blue) 3px;
+        object-fit:cover;
+    }
+    .div6figcaption{
+        width: 200px;
+        font-size: 1rem;
+
+    }
+    .div6_1, .div6_2,.div6_3, .div6_4 {
+        
+        padding-top: 15px;    
+       
+                
+        }
+.section3{
+    height: auto;
+    background-color: rgb(229, 231, 235);
+    padding: var(--padding-leftright-seccions) ;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divbox7{
+ 
+   
+    text-align: center;
+    height: 85%;
+    font-size: 26px;
+    font-style: italic;
+     
+
+}
+.divbox8{
+    padding-top: 1%;
+    height: 15%;
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+
+.section4{
+    margin-top: 45px;
+    height: 200px;
+    color: var(--main-text-color);
+    background-color: var(--main-backgroundcolor);
+    padding: var(--padding-leftright-seccions) ;
+  
+}
+
+.divbox9{
+
+   display: flex;
+    background-color: var(--backgroundcolor-blue);
+    color:var(--main-backgroundcolor);
+    border-radius: 5px;
+    height: 35%;
+       justify-content: center;
+       padding-left: var(--padding-leftright-header);
+align-items: center;
+
+}
+.div9_1{
+    padding-left: var(--padding-leftright-header);
+    width: 75%;
+}
+.div9_2{
+    width: 25%;
+    border: none;
+}
+.div9_1_1{
+    font-weight: bold;
+    font-size: larger;
+}
+.signUpFooterBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: var(--main-backgroundcolor);
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+    border: solid 1px var(--main-text-color);
+}
+
+.footer{
+    text-align:center;
+    height: 100px;
+  padding-top: 15px;
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+}
+
+
+
+
+
+
+
+    
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+    :root{
+        --main-backgroundcolor: #f9faf8;
+        --main-text-color: #f9faf8;
+        --color-header-footer: #1f2937;
+        --padding-leftright-header: 15px;
+        --padding-leftright-seccions:0 50px 0 50px ;
+        --backgroundcolor-blue: #3882f6;
+
+    }
   
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding: var(--padding-leftright-seccions) ;
+    
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+    height: 405px;
+}
+.navbar{
+    display: flex;
+  
+   height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.divbox1{
+    padding-top: 5px;
+    width: 15%;
+    position: relative;
+    left: 0;
+    padding-left: var(--padding-leftright-header);
+    font-size: 24px;
+   
+    
+    align-items: flex-start;
+    
+}
+.divbox2{
+    width: 100%;
+    padding-top: 5px;
+    padding-right: var(--padding-leftright-header);
+    justify-content: end;
+    align-items: flex-start;
+   
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+.divContainer{
+    display: flex;
+    height: 70%;
+
+
+}
+
+
+.divbox3{
+  
+    padding-left: var(--padding-leftright-header);
+    padding-right: var(--padding-leftright-header);
+    width: 50%;
+    height: 75%;
+}
+.div3_1{
+    font-size: 40px;
+    max-width: 450px;
+    font-weight: bolder;
+    
+}
+.div3_2{
+    font-size: 16px;
+    
+    max-width: 450px;
+   
+}
+.signUpHeaderBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+}
+.divbox4{
+   
+    min-width: 450px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divbox4 img{
+    
+   border:none;
+    width: 85%;
+    object-fit:cover;
+    border-radius: 8px    ;
+    }
+
+
+
+
+.section2{
+    text-align: center;
+    background-color: var(--main-backgroundcolor);
+    height: auto;
+    
+    padding-bottom:25px ;
+}
+.divbox5{
+    height: 20%;
+    font-size: 30px;
+    padding-top:1% ;
+    font-weight: bolder;
+ 
+}
+.divbox6{
+    height: 85%;
+   
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+   
+    }
+   
+    .divbox6 img{
+        border-radius: 15px;
+        width: 200px;
+        height: 190px;
+        border: solid var(--backgroundcolor-blue) 3px;
+        object-fit:cover;
+    }
+    .div6figcaption{
+        width: 200px;
+        font-size: 1rem;
+
+    }
+    .div6_1, .div6_2,.div6_3, .div6_4 {
+        
+        padding-top: 15px;    
+       
+                
+        }
+.section3{
+    height: auto;
+    background-color: rgb(229, 231, 235);
+    padding: var(--padding-leftright-seccions) ;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divbox7{
+ 
+   
+    text-align: center;
+    height: 85%;
+    font-size: 26px;
+    font-style: italic;
+     
+
+}
+.divbox8{
+    padding-top: 1%;
+    height: 15%;
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+
+.section4{
+    margin-top: 45px;
+    height: 200px;
+    color: var(--main-text-color);
+    background-color: var(--main-backgroundcolor);
+    padding: var(--padding-leftright-seccions) ;
   
 }
+
+.divbox9{
+
+   display: flex;
+    background-color: var(--backgroundcolor-blue);
+    color:var(--main-backgroundcolor);
+    border-radius: 5px;
+    height: 35%;
+       justify-content: center;
+       padding-left: var(--padding-leftright-header);
+align-items: center;
+
+}
+.div9_1{
+    padding-left: var(--padding-leftright-header);
+    width: 75%;
+}
+.div9_2{
+    width: 25%;
+    border: none;
+}
+.div9_1_1{
+    font-weight: bold;
+    font-size: larger;
+}
+.signUpFooterBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: var(--main-backgroundcolor);
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+    border: solid 1px var(--main-text-color);
+}
+
+.footer{
+    text-align:center;
+    height: 100px;
+  padding-top: 15px;
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+}
+
+
+
+}
+
+
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+    :root{
+        --main-backgroundcolor: #f9faf8;
+        --main-text-color: #f9faf8;
+        --color-header-footer: #1f2937;
+        --padding-leftright-header: 15px;
+        --padding-leftright-seccions:0 50px 0 50px ;
+        --backgroundcolor-blue: #3882f6;
+
+    }
   
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding: var(--padding-leftright-seccions) ;
+    
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+    height: 405px;
+}
+.navbar{
+    display: flex;
+  
+   height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.divbox1{
+    padding-top: 5px;
+    width: 15%;
+    position: relative;
+    left: 0;
+    padding-left: var(--padding-leftright-header);
+    font-size: 24px;
+   
+    
+    align-items: flex-start;
+    
+}
+.divbox2{
+    width: 100%;
+    padding-top: 5px;
+    padding-right: var(--padding-leftright-header);
+    justify-content: end;
+    align-items: flex-start;
+   
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+.divContainer{
+    display: flex;
+    height: 70%;
+
+
+}
+
+
+.divbox3{
+  
+    padding-left: var(--padding-leftright-header);
+    padding-right: var(--padding-leftright-header);
+    width: 50%;
+    height: 75%;
+}
+.div3_1{
+    font-size: 40px;
+    max-width: 450px;
+    font-weight: bolder;
+    
+}
+.div3_2{
+    font-size: 16px;
+    
+    max-width: 450px;
+   
+}
+.signUpHeaderBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+}
+.divbox4{
+   
+    min-width: 450px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divbox4 img{
+    
+   border:none;
+    width: 85%;
+    object-fit:cover;
+    border-radius: 8px    ;
+    }
+
+
+
+
+.section2{
+    text-align: center;
+    background-color: var(--main-backgroundcolor);
+    height: auto;
+    
+    padding-bottom:25px ;
+}
+.divbox5{
+    height: 20%;
+    font-size: 30px;
+    padding-top:1% ;
+    font-weight: bolder;
+ 
+}
+.divbox6{
+    height: 85%;
+   
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+   
+    }
+   
+    .divbox6 img{
+        border-radius: 15px;
+        width: 200px;
+        height: 190px;
+        border: solid var(--backgroundcolor-blue) 3px;
+        object-fit:cover;
+    }
+    .div6figcaption{
+        width: 200px;
+        font-size: 1rem;
+
+    }
+    .div6_1, .div6_2,.div6_3, .div6_4 {
+        
+        padding-top: 15px;    
+       
+                
+        }
+.section3{
+    height: auto;
+    background-color: rgb(229, 231, 235);
+    padding: var(--padding-leftright-seccions) ;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divbox7{
+ 
+   
+    text-align: center;
+    height: 85%;
+    font-size: 26px;
+    font-style: italic;
+     
+
+}
+.divbox8{
+    padding-top: 1%;
+    height: 15%;
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+
+.section4{
+    margin-top: 45px;
+    height: 200px;
+    color: var(--main-text-color);
+    background-color: var(--main-backgroundcolor);
+    padding: var(--padding-leftright-seccions) ;
+  
+}
+
+.divbox9{
+
+   display: flex;
+    background-color: var(--backgroundcolor-blue);
+    color:var(--main-backgroundcolor);
+    border-radius: 5px;
+    height: 35%;
+       justify-content: center;
+       padding-left: var(--padding-leftright-header);
+align-items: center;
+
+}
+.div9_1{
+    padding-left: var(--padding-leftright-header);
+    width: 75%;
+}
+.div9_2{
+    width: 25%;
+    border: none;
+}
+.div9_1_1{
+    font-weight: bold;
+    font-size: larger;
+}
+.signUpFooterBtn{
+    margin-top: 15px;
+    background-color:var(--backgroundcolor-blue);
+    border-radius: 5px ;
+   
+    color: var(--main-backgroundcolor);
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+    border: solid 1px var(--main-text-color);
+}
+
+.footer{
+    text-align:center;
+    height: 100px;
+  padding-top: 15px;
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+}
+
+
+
 }
 
 
