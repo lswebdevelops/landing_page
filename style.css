@@ -53,10 +53,139 @@ table {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+    :root{
+        --main-backgroundcolor: #f9faf8;
+        --main-text-color: #f9faf8;
+        --color-header-footer: #1f2937;
+        --padding-leftright-header: 25px;
+
+    }
   
 body{
-    background-color: white;
+    background-color: grey;
 }
+
+.header{
+    padding: 0 35px 0 35px ;
+    border: solid firebrick 1px;
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+    height: 15rem;
+}
+.navbar{
+    display: flex;
+    border: solid 1px yellow;
+   height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.divbox1{
+    padding-top: 5px;
+    width: 15%;
+    position: relative;
+    left: 0;
+    padding-left: var(--padding-leftright-header);
+    font-size: 24px;
+   
+    border: solid blue 1px;
+    align-items: flex-start;
+    
+}
+.divbox2{
+    width: 100%;
+    padding-top: 5px;
+    padding-right: var(--padding-leftright-header);
+    justify-content: end;
+    align-items: flex-start;
+    border: solid blue 1px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+.divContainer{
+    display: flex;
+    height: 70%;
+
+}
+.divbox3{
+    border: solid blue 1px;
+    padding-left: var(--padding-leftright-header);
+    padding-right: var(--padding-leftright-header);
+    width: 50%;
+}
+.div3_1{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.div3_2{
+    font-size: 18px;
+   
+}
+.divbox4{
+    border: solid blue 1px;
+    width: 50%;
+    text-align: center;
+   
+    padding-right: var(--padding-leftright-header);
+}
+
+.section2{
+    border: solid firebrick 1px;
+    background-color: var(--main-backgroundcolor);
+}
+.divbox5{
+    border: solid blue 1px;
+}
+.divbox6{
+    border: solid blue 1px;
+}
+
+.section3{
+    border: solid firebrick 1px;
+}
+
+.divbox7{
+    border: solid blue 1px;
+}
+.divbox8{
+    border: solid blue 1px;
+}
+.section4{
+    border: solid firebrick 1px;
+    color: var(--main-text-color);
+    background-color: var(--main-backgroundcolor);
+}
+
+.divbox9{
+    border: solid blue 1px;
+}
+
+
+.footer{
+    border: solid firebrick 1px;
+    background-color: var(--color-header-footer);
+    color: var(--main-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
